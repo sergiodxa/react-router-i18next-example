@@ -2,7 +2,7 @@ import { data } from "react-router";
 import { cacheHeader } from "pretty-cache-header";
 import { z } from "zod";
 import resources from "~/locales";
-import type { Route } from "./+types/locales";
+import type { Route } from "./+types/api.locales.$lng.$ns";
 
 export async function loader({ params }: Route.LoaderArgs) {
   const lng = z

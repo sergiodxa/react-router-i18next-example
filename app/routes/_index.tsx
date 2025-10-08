@@ -1,7 +1,7 @@
 import { data, href, Link } from "react-router";
 import { Form } from "react-router";
 import { useTranslation } from "react-i18next";
-import type { Route } from "./+types";
+import type { Route } from "./+types/_index";
 import { getInstance } from "~/middleware/i18next";
 
 export function meta({ data }: Route.MetaArgs) {
